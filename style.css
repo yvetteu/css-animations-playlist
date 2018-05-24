@@ -1,5 +1,27 @@
-.wrapper{
-  width: 100%;
-  padding: 20px;
-  box-sizing: border-box;
+body {
+    background: lightblue;
+    text-align: center;
+}
+
+.wrapper {
+    box-sizing: border-box;
+    padding: 20px;
+    width: 100%;
+}
+
+.circle {
+    background: pink;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    line-height: 0;
+    margin: 60px auto;
+    padding: 50px 0;
+    transition: background 1s, transform .3s .5s ease-in-out;
+    width: 100px;
+}
+
+.circle:hover {
+    background: salmon;
+    transform: rotate(360deg);
 }
